@@ -1,0 +1,31 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    var array=["atom","particle","watson","sow"]
+    $("button").click(function(){
+        for(var i=0;i<array.length;i++)
+{        
+    fetch("https://en.wikipedia.org/w/api.php?&origin=*&action=opensearch&search="+array[i]+"&limit=1").then(function(resp) {
+    //console.log(resp);
+    return resp.json()
+}).then(function(data) {
+    console.log(data,"data");
+})
+
+}
+})
+})
+</script>
+</head>
+<body>
+
+<div id="div1"><h2>Let jQuery AJAX Change This Text</h2></div>
+
+<button>Get External Content</button>
+
+</body>
+</html> -->
